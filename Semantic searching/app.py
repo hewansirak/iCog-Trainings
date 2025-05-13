@@ -3,6 +3,7 @@ from modules.file_handler import handle_uploads
 from modules.embeddings import get_vector_store, embed_and_store
 from modules.search import search_query
 from modules.memory import update_memory, get_full_query
+from modules.visualization import visualize_embeddings
 
 st.set_page_config(layout="wide")
 st.title("📚 Semantic Search Engine")
@@ -33,4 +34,12 @@ if query and st.session_state.vector_store:
         st.markdown(f"**{rank}.** *Page {res['meta']['page']}* — `{res['meta']['source']}`")
         st.markdown(res["text"])
         st.markdown("---")
-
+        
+if st.session_state.vector_store:
+    if len(st.session_state.vector_store["texts"]) < 3:
+        st.warning("Upload more documents for meaningful visualization.")
+    else:
+        if st.button("Visualize Embeddings"):
+            method = st.selectbox("Choose method", ["tsne", "umap"])
+            fig = visualize_embeddings(st.session_state.vector_store, method=method)
+            st.pyplot(fig)
