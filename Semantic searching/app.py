@@ -30,10 +30,10 @@ if query and st.session_state.vector_store:
     st.session_state.memory = update_memory(st.session_state.memory, query)
 
     st.write("### 🔍 Top 3 Results:")
-    for rank, res in enumerate(results, 1):
-        st.markdown(f"**{rank}.** *Page {res['meta']['page']}* — `{res['meta']['source']}`")
-        st.markdown(res["text"])
-        st.markdown("---")
+    for res in results:
+        st.chat_message("assistant").markdown(
+            f"📄 **Page {res['meta']['page']}** from `{res['meta']['source']}`:\n> {res['text']}"
+        )
         
 if st.session_state.vector_store:
     if len(st.session_state.vector_store["texts"]) < 3:
