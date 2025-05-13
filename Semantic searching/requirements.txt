@@ -1,0 +1,9 @@
+streamlit
+sentence-transformers
+faiss-cpu
+PyMuPDF
+nltk
+umap-learn
+scikit-learn
+matplotlib
+seaborn
