@@ -40,6 +40,7 @@ A powerful Streamlit-based app for document search and AI question answering usi
 - `Matplotlib`, `Seaborn` for visualization
 - `spaCy` or similar for entity extraction (via `extract_entities`)
 ---
+[![Watch the demo](https://www.youtube.com/watch?v=95MUoXKSYr0&ab_channel=HewanGetahun)
 
 ## ▶️ Getting Started
 
@@ -53,5 +54,3 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-
-[![Watch the demo](https://www.youtube.com/watch?v=95MUoXKSYr0&ab_channel=HewanGetahun)
