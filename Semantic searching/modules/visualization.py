@@ -26,7 +26,7 @@ def visualize_embeddings(store, method="tsne"):
         "label": labels
     })
 
-    fig, ax = plt.subplots(figsize=(2, 2))
+    fig, ax = plt.subplots(figsize=(4, 4))
     sns.scatterplot(data=df, x="x", y="y", hue="label", palette="Set2", s=15, ax=ax, legend=False)
     ax.set_title(f"{method.upper()} Embedding Space", fontsize=14)
     ax.set_xticks([])
