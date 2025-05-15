@@ -14,4 +14,4 @@ def expand_synonyms(text):
         for syn in wordnet.synsets(word):
             for lemma in syn.lemmas():
                 synonyms.add(lemma.name().replace("_", " "))
-    return text + " " + " ".join(list(synonyms)[:10])  # Limit extra noise
+    return text + " " + " ".join(list(synonyms)[:10]) 

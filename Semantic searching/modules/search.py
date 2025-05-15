@@ -2,7 +2,7 @@ import numpy as np
 from modules.embeddings import model
 from modules.preprocessing import expand_synonyms
 
-def search_query(query, store, top_k=3):
+def search_query(query, store, style="Concise", top_k=3):
     from modules.embeddings import model
     from modules.preprocessing import expand_synonyms
     import numpy as np
@@ -15,12 +15,12 @@ def search_query(query, store, top_k=3):
     for idx in I[0]:
         if idx < len(store["texts"]):
             doc = store["texts"][idx]
-            short_text = doc["text"]
-            # Keep just the first sentence or limit to N characters
-            short_text = short_text.split(".")[0] + "." if "." in short_text else short_text
-            short_text = short_text[:250] + "..." if len(short_text) > 250 else short_text
+            text = doc["text"]
+            if style == "Concise":
+                text = text.split(".")[0] + "." if "." in text else text
+                text = text[:250] + "..." if len(text) > 250 else text
             results.append({
-                "text": short_text,
+                "text": text,
                 "meta": doc["meta"]
             })
     return results
