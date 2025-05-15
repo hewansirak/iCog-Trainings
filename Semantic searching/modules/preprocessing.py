@@ -1,17 +1,29 @@
 import re
-from nltk.corpus import wordnet
-import nltk
-nltk.download("wordnet")
+import spacy
+nlp = spacy.load("en_core_web_sm")
 
 def clean_text(text):
-    text = re.sub(r'\s+', ' ', text)
-    return text.strip()
+    text = re.sub(r"\s+", " ", text) 
+    text = text.replace("\n", " ").strip()
+    return text
 
 def expand_synonyms(text):
-    words = text.split()
-    synonyms = set()
-    for word in words:
-        for syn in wordnet.synsets(word):
-            for lemma in syn.lemmas():
-                synonyms.add(lemma.name().replace("_", " "))
-    return text + " " + " ".join(list(synonyms)[:10]) 
+    synonyms = {
+        "author": ["writer", "researcher"],
+        "paper": ["document", "article"],
+        "study": ["research", "analysis"]
+    }
+    for word, syns in synonyms.items():
+        for syn in syns:
+            text = text.replace(word, f"{word} {syn}")
+    return text
+
+def extract_entities(text):
+    doc = nlp(text)
+    return [ent.text.strip().lower() for ent in doc.ents if ent.label_ in ["PERSON", "ORG", "GPE"]]
+
+def highlight_entities(text, entities):
+    for ent in sorted(set(entities), key=len, reverse=True):
+        pattern = re.compile(rf"\b({re.escape(ent)})\b", re.IGNORECASE)
+        text = pattern.sub(r"**🟦 \1**", text)
+    return text
