@@ -22,6 +22,7 @@ if uploaded_files:
     vector_store = get_vector_store()
     embed_and_store(texts_with_meta, vector_store)
     st.session_state.vector_store = vector_store
+    # st.json(vector_store["texts"][0])
     st.success("✅ Files uploaded and indexed!")
 
 style = st.radio("Response Style", ["Concise", "Verbose"], horizontal=True)
@@ -52,16 +53,52 @@ if "?" in query or query.lower().startswith("what") or "conclusion" in query.low
             st.sidebar.markdown(f"**{res['meta'].get('filename', 'Unknown Source')}** — Page {res['meta'].get('page', '?')}")
             st.sidebar.markdown(", ".join(set(ents)))
 
-    # Extractive QA
-    st.write("---")
-    if st.checkbox("💡 Ask a follow-up question based on top result"):
-        follow_up = st.text_input("Your question")
-        if follow_up:
-            context = results[0]["text"]
-            answer, score = answer_question(follow_up, context)
-            st.success(f"🧠 Answer: **{answer}** (Confidence: {score:.2f})")
+# Ensure vector_store and results exist
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
 
-# Visualization
+if "top_result" not in st.session_state:
+    st.session_state.top_result = None
+
+# Move Follow-up Q&A above the visualization
+st.write("---")
+st.markdown("### 💬 Follow-up Q&A")
+
+if st.checkbox("🧠 Enable chat mode") and st.session_state.top_result:
+    # Initialize chat
+    if not st.session_state.chat_history:
+        st.session_state.chat_history.append({
+            "role": "assistant",
+            "content": "I'm ready for follow-up questions. Ask anything based on the top result!"
+        })
+
+    # Display chat history
+    for msg in st.session_state.chat_history:
+        st.chat_message(msg["role"]).markdown(msg["content"])
+
+    # Input for follow-up question
+    follow_up = st.chat_input("Ask a follow-up question (or type 'exit' to stop)...")
+
+    if follow_up:
+        if follow_up.strip().lower() == "exit":
+            st.session_state.chat_history.append({
+                "role": "assistant",
+                "content": "✅ Ending chat. Let me know if you need anything else!"
+            })
+        else:
+            st.session_state.chat_history.append({"role": "user", "content": follow_up})
+            top_context = st.session_state.top_result["text"]
+            follow_up_answer, follow_up_score = answer_question(follow_up, top_context)
+            st.session_state.chat_history.append({
+                "role": "assistant",
+                "content": f"**Answer**: {follow_up_answer}  \n_Confidence: {follow_up_score * 100:.2f}%_"
+            })
+
+# Store top result for follow-up context
+if query and st.session_state.vector_store and results:
+    st.session_state.top_result = results[0]
+
+# Visualization after Q&A
 if st.session_state.vector_store and len(st.session_state.vector_store["texts"]) >= 3:
     with st.expander("📊 Show Embedding Visualization"):
         method = st.selectbox("Choose method", ["tsne", "umap"])

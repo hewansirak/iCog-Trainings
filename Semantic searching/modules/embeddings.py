@@ -23,6 +23,7 @@ def embed_and_store(texts, vector_store):
         vector_store["index"].add(np.array([embedding]).astype("float32"))
         vector_store["texts"].append({
             "text": text_clean,
+            "embedding": embedding.tolist(),
             "meta": meta
         })
 

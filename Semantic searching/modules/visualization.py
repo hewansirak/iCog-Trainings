@@ -7,7 +7,7 @@ import umap.umap_ as umap
 
 def visualize_embeddings(store, method="tsne"):
     embeddings = np.array([text["embedding"] for text in store["texts"]])
-    labels = [text["meta"]["source"] for text in store["texts"]]
+    labels = [text["meta"].get("filename", "Unknown") for text in store["texts"]]
 
     if len(embeddings) < 2:
         raise ValueError("Not enough data points to visualize.")
