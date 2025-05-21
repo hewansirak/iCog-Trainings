@@ -1,0 +1,1103 @@
+{
+	"result": {
+		"text": "An age-related decline in immune functions, referred to as immunosenescence, is partially responsible for the increased prevalence and severity of infectious diseases, and the low efficacy of vaccination in elderly persons. Immunosenescence is characterized by a decrease in cell-mediated immune function as well as by reduced humoral immune responses. Age-dependent defects in T- and B-cell function coexist with age-related changes within the innate immune system. In this review, we discuss the mechanisms and consequences of age-associated immune alterations as well as their implications for health in old age.",
+		"annotations": [
+			{
+				"1": {
+					"pretty_name": "C0851454",
+					"cui": "C0851454",
+					"type_ids": [
+						"unk"
+					],
+					"types": [
+						""
+					],
+					"source_value": "age-related",
+					"detected_name": "age~related",
+					"acc": 0.24065813118877957,
+					"context_similarity": 0.24065813118877957,
+					"start": 3,
+					"end": 14,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 1,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6983060240745544,
+							"name": "Status"
+						}
+					}
+				},
+				"3": {
+					"pretty_name": "Reduced",
+					"cui": "C0392756",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "decline",
+					"detected_name": "decline",
+					"acc": 0.6784981910816092,
+					"context_similarity": 0.6784981910816092,
+					"start": 15,
+					"end": 22,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 3,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5291001200675964,
+							"name": "Status"
+						}
+					}
+				},
+				"5": {
+					"pretty_name": "functioning immune",
+					"cui": "C1817756",
+					"type_ids": [
+						"T042"
+					],
+					"types": [
+						"Organ or Tissue Function"
+					],
+					"source_value": "immune functions",
+					"detected_name": "immune~function",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 26,
+					"end": 42,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 5,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8126861453056335,
+							"name": "Status"
+						}
+					}
+				},
+				"7": {
+					"pretty_name": "Referring",
+					"cui": "C0205543",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "referred",
+					"detected_name": "referred",
+					"acc": 0.17950010815763198,
+					"context_similarity": 0.17950010815763198,
+					"start": 44,
+					"end": 52,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 7,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"8": {
+					"pretty_name": "immunosenescence",
+					"cui": "C0596761",
+					"type_ids": [
+						"T039"
+					],
+					"types": [
+						"Physiologic Function"
+					],
+					"source_value": "immunosenescence",
+					"detected_name": "immunosenescence",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 59,
+					"end": 75,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 8,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8459464311599731,
+							"name": "Status"
+						}
+					}
+				},
+				"10": {
+					"pretty_name": "Person Responsible",
+					"cui": "C1273518",
+					"type_ids": [
+						"T033"
+					],
+					"types": [
+						"Finding"
+					],
+					"source_value": "partially responsible",
+					"detected_name": "partially~responsible",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 80,
+					"end": 101,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 10,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9245108366012573,
+							"name": "Status"
+						}
+					}
+				},
+				"14": {
+					"pretty_name": "High Prevalence",
+					"cui": "C1512456",
+					"type_ids": [
+						"T081"
+					],
+					"types": [
+						"Quantitative Concept"
+					],
+					"source_value": "increased prevalence",
+					"detected_name": "increased~prevalence",
+					"acc": 0.32197261653286285,
+					"context_similarity": 0.32197261653286285,
+					"start": 110,
+					"end": 130,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 14,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8459464311599731,
+							"name": "Status"
+						}
+					}
+				},
+				"16": {
+					"pretty_name": "Severities",
+					"cui": "C0439793",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "severity",
+					"detected_name": "severity",
+					"acc": 0.725295211529247,
+					"context_similarity": 0.725295211529247,
+					"start": 135,
+					"end": 143,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 16,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"18": {
+					"pretty_name": "Communicable Diseases",
+					"cui": "C0009450",
+					"type_ids": [
+						"T047"
+					],
+					"types": [
+						"Disease or Syndrome"
+					],
+					"source_value": "infectious diseases",
+					"detected_name": "infectious~disease",
+					"acc": 0.5547426785158183,
+					"context_similarity": 0.5547426785158183,
+					"start": 147,
+					"end": 166,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 18,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8126861453056335,
+							"name": "Status"
+						}
+					}
+				},
+				"20": {
+					"pretty_name": "low",
+					"cui": "C0205251",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "low",
+					"detected_name": "low",
+					"acc": 0.755616079584729,
+					"context_similarity": 0.755616079584729,
+					"start": 176,
+					"end": 179,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 20,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9401192665100098,
+							"name": "Status"
+						}
+					}
+				},
+				"22": {
+					"pretty_name": "Effectiveness",
+					"cui": "C1280519",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "efficacy of",
+					"detected_name": "efficacy~of",
+					"acc": 0.2518808759591124,
+					"context_similarity": 0.2518808759591124,
+					"start": 180,
+					"end": 191,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 22,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5031031966209412,
+							"name": "Status"
+						}
+					}
+				},
+				"23": {
+					"pretty_name": "Vaccination",
+					"cui": "C0042196",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "vaccination",
+					"detected_name": "vaccination",
+					"acc": 0.37223631105490723,
+					"context_similarity": 0.37223631105490723,
+					"start": 192,
+					"end": 203,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 23,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5291001200675964,
+							"name": "Status"
+						}
+					}
+				},
+				"24": {
+					"pretty_name": "Elderly (population group)",
+					"cui": "C0001792",
+					"type_ids": [
+						"T098"
+					],
+					"types": [
+						"Population Group"
+					],
+					"source_value": "elderly",
+					"detected_name": "elderly",
+					"acc": 0.5575568667703704,
+					"context_similarity": 0.5575568667703704,
+					"start": 207,
+					"end": 214,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 24,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"25": {
+					"pretty_name": "Individual",
+					"cui": "C0237401",
+					"type_ids": [
+						"T098"
+					],
+					"types": [
+						"Population Group"
+					],
+					"source_value": "persons",
+					"detected_name": "person",
+					"acc": 0.316436667727725,
+					"context_similarity": 0.316436667727725,
+					"start": 215,
+					"end": 222,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 25,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5031031966209412,
+							"name": "Status"
+						}
+					}
+				},
+				"26": {
+					"pretty_name": "immunosenescence",
+					"cui": "C0596761",
+					"type_ids": [
+						"T039"
+					],
+					"types": [
+						"Physiologic Function"
+					],
+					"source_value": "Immunosenescence",
+					"detected_name": "immunosenescence",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 224,
+					"end": 240,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 26,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.7851879596710205,
+							"name": "Status"
+						}
+					}
+				},
+				"27": {
+					"pretty_name": "Characterization",
+					"cui": "C1880022",
+					"type_ids": [
+						"T052"
+					],
+					"types": [
+						"Activity"
+					],
+					"source_value": "characterized",
+					"detected_name": "characterized",
+					"acc": 0.22186689730946207,
+					"context_similarity": 0.22186689730946207,
+					"start": 244,
+					"end": 257,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 27,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"28": {
+					"pretty_name": "Decrease",
+					"cui": "C0547047",
+					"type_ids": [
+						"T081"
+					],
+					"types": [
+						"Quantitative Concept"
+					],
+					"source_value": "decrease",
+					"detected_name": "decrease",
+					"acc": 0.6563886909676122,
+					"context_similarity": 0.6563886909676122,
+					"start": 263,
+					"end": 271,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 28,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9394949674606323,
+							"name": "Status"
+						}
+					}
+				},
+				"29": {
+					"pretty_name": "CD8-Positive T-Lymphocytes",
+					"cui": "C0242629",
+					"type_ids": [
+						"T025"
+					],
+					"types": [
+						"Cell"
+					],
+					"source_value": "cell",
+					"detected_name": "cell",
+					"acc": 0.4294046662232621,
+					"context_similarity": 0.4294046662232621,
+					"start": 275,
+					"end": 279,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 29,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"30": {
+					"pretty_name": "Effect",
+					"cui": "C1280500",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "mediated",
+					"detected_name": "mediated",
+					"acc": 0.4365220187217167,
+					"context_similarity": 0.4365220187217167,
+					"start": 280,
+					"end": 288,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 30,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6983060240745544,
+							"name": "Status"
+						}
+					}
+				},
+				"32": {
+					"pretty_name": "functioning immune",
+					"cui": "C1817756",
+					"type_ids": [
+						"T042"
+					],
+					"types": [
+						"Organ or Tissue Function"
+					],
+					"source_value": "immune function",
+					"detected_name": "immune~function",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 289,
+					"end": 304,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 32,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5031031966209412,
+							"name": "Status"
+						}
+					}
+				},
+				"34": {
+					"pretty_name": "Reduced",
+					"cui": "C0392756",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "reduced",
+					"detected_name": "reduced",
+					"acc": 0.6617248709752035,
+					"context_similarity": 0.6617248709752035,
+					"start": 319,
+					"end": 326,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 34,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8328408598899841,
+							"name": "Status"
+						}
+					}
+				},
+				"36": {
+					"pretty_name": "Humoral immune response",
+					"cui": "C1155229",
+					"type_ids": [
+						"T043"
+					],
+					"types": [
+						"Cell Function"
+					],
+					"source_value": "humoral immune responses",
+					"detected_name": "humoral~immune~response",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 327,
+					"end": 351,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 36,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.7062997221946716,
+							"name": "Status"
+						}
+					}
+				},
+				"40": {
+					"pretty_name": "Age",
+					"cui": "C0001779",
+					"type_ids": [
+						"T032"
+					],
+					"types": [
+						"Organism Attribute"
+					],
+					"source_value": "Age",
+					"detected_name": "age",
+					"acc": 0.9768456402335752,
+					"context_similarity": 0.9768456402335752,
+					"start": 353,
+					"end": 356,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 40,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"41": {
+					"pretty_name": "Finding",
+					"cui": "C0243095",
+					"type_ids": [
+						"T033"
+					],
+					"types": [
+						"Finding"
+					],
+					"source_value": "dependent",
+					"detected_name": "dependent",
+					"acc": 0.5341152004930576,
+					"context_similarity": 0.5341152004930576,
+					"start": 357,
+					"end": 366,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 41,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5031031966209412,
+							"name": "Status"
+						}
+					}
+				},
+				"42": {
+					"pretty_name": "Defect",
+					"cui": "C1457869",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "defects",
+					"detected_name": "defect",
+					"acc": 0.518963263525551,
+					"context_similarity": 0.518963263525551,
+					"start": 367,
+					"end": 374,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 42,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5291001200675964,
+							"name": "Status"
+						}
+					}
+				},
+				"45": {
+					"pretty_name": "Cell physiology",
+					"cui": "C0007613",
+					"type_ids": [
+						"T043"
+					],
+					"types": [
+						"Cell Function"
+					],
+					"source_value": "cell function",
+					"detected_name": "cell~function",
+					"acc": 0.3379065797696238,
+					"context_similarity": 0.3379065797696238,
+					"start": 387,
+					"end": 400,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 45,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5636127591133118,
+							"name": "Status"
+						}
+					}
+				},
+				"47": {
+					"pretty_name": "C1547035",
+					"cui": "C1547035",
+					"type_ids": [
+						"unk"
+					],
+					"types": [
+						""
+					],
+					"source_value": "coexist",
+					"detected_name": "coexist",
+					"acc": 0.3405254908704957,
+					"context_similarity": 0.3405254908704957,
+					"start": 401,
+					"end": 408,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 47,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6983060240745544,
+							"name": "Status"
+						}
+					}
+				},
+				"50": {
+					"pretty_name": "age factor",
+					"cui": "C0001783",
+					"type_ids": [
+						"T079"
+					],
+					"types": [
+						"Temporal Concept"
+					],
+					"source_value": "age-related changes",
+					"detected_name": "age~related~change",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 414,
+					"end": 433,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 50,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.7851879596710205,
+							"name": "Status"
+						}
+					}
+				},
+				"55": {
+					"pretty_name": "Immunity, Innate",
+					"cui": "C0020969",
+					"type_ids": [
+						"T032"
+					],
+					"types": [
+						"Organism Attribute"
+					],
+					"source_value": "innate immune system",
+					"detected_name": "innate~immune~system",
+					"acc": 0.4194551115613968,
+					"context_similarity": 0.4194551115613968,
+					"start": 445,
+					"end": 465,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 55,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8459464311599731,
+							"name": "Status"
+						}
+					}
+				},
+				"59": {
+					"pretty_name": "Review [Publication Type]",
+					"cui": "C0282443",
+					"type_ids": [
+						"T170"
+					],
+					"types": [
+						"Intellectual Product"
+					],
+					"source_value": "review",
+					"detected_name": "review",
+					"acc": 0.6978557897342222,
+					"context_similarity": 0.6978557897342222,
+					"start": 475,
+					"end": 481,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 59,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9401192665100098,
+							"name": "Status"
+						}
+					}
+				},
+				"60": {
+					"pretty_name": "Discussion (communication)",
+					"cui": "C2584313",
+					"type_ids": [
+						"T054"
+					],
+					"types": [
+						"Social Behavior"
+					],
+					"source_value": "discuss",
+					"detected_name": "discuss",
+					"acc": 0.15853874452600475,
+					"context_similarity": 0.15853874452600475,
+					"start": 486,
+					"end": 493,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 60,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9394949674606323,
+							"name": "Status"
+						}
+					}
+				},
+				"61": {
+					"pretty_name": "Mechanism (attribute)",
+					"cui": "C0441712",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "mechanisms",
+					"detected_name": "mechanism",
+					"acc": 0.6762218237714466,
+					"context_similarity": 0.6762218237714466,
+					"start": 498,
+					"end": 508,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 61,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8126861453056335,
+							"name": "Status"
+						}
+					}
+				},
+				"63": {
+					"pretty_name": "consequence",
+					"cui": "C0686907",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "consequences of",
+					"detected_name": "consequence~of",
+					"acc": 0.4644150292036282,
+					"context_similarity": 0.4644150292036282,
+					"start": 513,
+					"end": 528,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 63,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8240143656730652,
+							"name": "Status"
+						}
+					}
+				},
+				"64": {
+					"pretty_name": "Age",
+					"cui": "C0001779",
+					"type_ids": [
+						"T032"
+					],
+					"types": [
+						"Organism Attribute"
+					],
+					"source_value": "age",
+					"detected_name": "age",
+					"acc": 0.9421201840151745,
+					"context_similarity": 0.9421201840151745,
+					"start": 529,
+					"end": 532,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 64,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5291001200675964,
+							"name": "Status"
+						}
+					}
+				},
+				"65": {
+					"pretty_name": "Relationships",
+					"cui": "C0439849",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "associated",
+					"detected_name": "associated",
+					"acc": 0.6552157567789914,
+					"context_similarity": 0.6552157567789914,
+					"start": 533,
+					"end": 543,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 65,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5031031966209412,
+							"name": "Status"
+						}
+					}
+				},
+				"66": {
+					"pretty_name": "Immune",
+					"cui": "C0439662",
+					"type_ids": [
+						"T033"
+					],
+					"types": [
+						"Finding"
+					],
+					"source_value": "immune",
+					"detected_name": "immune",
+					"acc": 0.3866868043914572,
+					"context_similarity": 0.3866868043914572,
+					"start": 544,
+					"end": 550,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 66,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5291001200675964,
+							"name": "Status"
+						}
+					}
+				},
+				"67": {
+					"pretty_name": "Mutation",
+					"cui": "C0026882",
+					"type_ids": [
+						"T045"
+					],
+					"types": [
+						"Genetic Function"
+					],
+					"source_value": "alterations",
+					"detected_name": "alteration",
+					"acc": 0.5927802914326752,
+					"context_similarity": 0.5927802914326752,
+					"start": 551,
+					"end": 562,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 67,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5031031966209412,
+							"name": "Status"
+						}
+					}
+				},
+				"68": {
+					"pretty_name": "Result",
+					"cui": "C1274040",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "implications",
+					"detected_name": "implication",
+					"acc": 0.5391479679299974,
+					"context_similarity": 0.5391479679299974,
+					"start": 580,
+					"end": 592,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 68,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8328408598899841,
+							"name": "Status"
+						}
+					}
+				},
+				"69": {
+					"pretty_name": "Health",
+					"cui": "C0018684",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "health",
+					"detected_name": "health",
+					"acc": 0.42804898952364967,
+					"context_similarity": 0.42804898952364967,
+					"start": 597,
+					"end": 603,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 69,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5514018535614014,
+							"name": "Status"
+						}
+					}
+				},
+				"71": {
+					"pretty_name": "Old age",
+					"cui": "C1999167",
+					"type_ids": [
+						"T098"
+					],
+					"types": [
+						"Population Group"
+					],
+					"source_value": "old age",
+					"detected_name": "old~age",
+					"acc": 0.6161684723424389,
+					"context_similarity": 0.6161684723424389,
+					"start": 607,
+					"end": 614,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 71,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8126861453056335,
+							"name": "Status"
+						}
+					}
+				}
+			}
+		],
+		"success": true,
+		"timestamp": "2025-05-14T07:39:44.198+00:00",
+		"elapsed_time": 3.690382573
+	},
+	"medcat_info": {
+		"service_app_name": "MedCAT",
+		"service_language": "en",
+		"service_version": "1.15.0",
+		"service_model": "MedMen",
+		"model_card_info": {
+			"ontologies": "None",
+			"meta_cat_model_names": "{}",
+			"model_last_modified_on": "None"
+		}
+	}
+}

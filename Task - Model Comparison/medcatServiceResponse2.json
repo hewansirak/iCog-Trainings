@@ -1,0 +1,2264 @@
+{
+	"result": {
+		"text": "The current evidence-based guideline on self-medication in migraine and tension-type headache of the German, Austrian and Swiss headache societies and the German Society of Neurology is addressed to physicians engaged in primary care as well as pharmacists and patients. The guideline is especially concerned with the description of the methodology used, the selection process of the literature used and which evidence the recommendations are based upon. The following recommendations about self-medication in migraine attacks can be made: The efficacy of the fixed-dose combination of acetaminophen, acetylsalicylic acid and caffeine and the monotherapies with ibuprofen or naratriptan or acetaminophen or phenazone are scientifically proven and recommended as first-line therapy. None of the substances used in self-medication in migraine prophylaxis can be seen as effective. Concerning the self-medication in tension-type headache, the following therapies can be recommended as first-line therapy: the fixed-dose combination of acetaminophen, acetylsalicylic acid and caffeine as well as the fixed combination of acetaminophen and caffeine as well as the monotherapies with ibuprofen or acetylsalicylic acid or diclofenac. The four scientific societies hope that this guideline will help to improve the treatment of headaches which largely is initiated by the patients themselves without any consultation with their physicians.",
+		"annotations": [
+			{
+				"0": {
+					"pretty_name": "Current (present time)",
+					"cui": "C0521116",
+					"type_ids": [
+						"T079"
+					],
+					"types": [
+						"Temporal Concept"
+					],
+					"source_value": "current",
+					"detected_name": "current",
+					"acc": 0.3939291275054101,
+					"context_similarity": 0.3939291275054101,
+					"start": 4,
+					"end": 11,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 0,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"2": {
+					"pretty_name": "Evidence",
+					"cui": "C3887511",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "evidence-based",
+					"detected_name": "evidence~based",
+					"acc": 0.40535468031220545,
+					"context_similarity": 0.40535468031220545,
+					"start": 12,
+					"end": 26,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 2,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5321054458618164,
+							"name": "Status"
+						}
+					}
+				},
+				"4": {
+					"pretty_name": "Guidelines",
+					"cui": "C0162791",
+					"type_ids": [
+						"T170"
+					],
+					"types": [
+						"Intellectual Product"
+					],
+					"source_value": "guideline",
+					"detected_name": "guideline",
+					"acc": 0.4818897759384997,
+					"context_similarity": 0.4818897759384997,
+					"start": 27,
+					"end": 36,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 4,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5627691149711609,
+							"name": "Status"
+						}
+					}
+				},
+				"5": {
+					"pretty_name": "Self-Report",
+					"cui": "C2700446",
+					"type_ids": [
+						"T062"
+					],
+					"types": [
+						"Research Activity"
+					],
+					"source_value": "self",
+					"detected_name": "self",
+					"acc": 0.1470096859420303,
+					"context_similarity": 0.1470096859420303,
+					"start": 40,
+					"end": 44,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 5,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"6": {
+					"pretty_name": "Explanation of plan: medication",
+					"cui": "C2081612",
+					"type_ids": [
+						"T058"
+					],
+					"types": [
+						"Health Care Activity"
+					],
+					"source_value": "medication",
+					"detected_name": "medication",
+					"acc": 0.42808028693260725,
+					"context_similarity": 0.42808028693260725,
+					"start": 45,
+					"end": 55,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 6,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5627691149711609,
+							"name": "Status"
+						}
+					}
+				},
+				"7": {
+					"pretty_name": "Migraine Disorders",
+					"cui": "C0149931",
+					"type_ids": [
+						"T047"
+					],
+					"types": [
+						"Disease or Syndrome"
+					],
+					"source_value": "migraine",
+					"detected_name": "migraine",
+					"acc": 0.5127250645977522,
+					"context_similarity": 0.5127250645977522,
+					"start": 59,
+					"end": 67,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 7,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"9": {
+					"pretty_name": "Type - attribute",
+					"cui": "C0332307",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "type",
+					"detected_name": "type",
+					"acc": 0.14660217948029403,
+					"context_similarity": 0.14660217948029403,
+					"start": 80,
+					"end": 84,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 9,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"10": {
+					"pretty_name": "Headache",
+					"cui": "C0018681",
+					"type_ids": [
+						"T184"
+					],
+					"types": [
+						"Sign or Symptom"
+					],
+					"source_value": "headache",
+					"detected_name": "headache",
+					"acc": 0.633839606036522,
+					"context_similarity": 0.633839606036522,
+					"start": 85,
+					"end": 93,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 10,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"11": {
+					"pretty_name": "Germany",
+					"cui": "C0017480",
+					"type_ids": [
+						"T083"
+					],
+					"types": [
+						"Geographic Area"
+					],
+					"source_value": "German",
+					"detected_name": "german",
+					"acc": 0.34812435019044596,
+					"context_similarity": 0.34812435019044596,
+					"start": 101,
+					"end": 107,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 11,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"13": {
+					"pretty_name": "Switzerland",
+					"cui": "C0039021",
+					"type_ids": [
+						"T083"
+					],
+					"types": [
+						"Geographic Area"
+					],
+					"source_value": "Swiss",
+					"detected_name": "swiss",
+					"acc": 0.26950398323528413,
+					"context_similarity": 0.26950398323528413,
+					"start": 122,
+					"end": 127,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 13,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9990449547767639,
+							"name": "Status"
+						}
+					}
+				},
+				"14": {
+					"pretty_name": "Headache",
+					"cui": "C0018681",
+					"type_ids": [
+						"T184"
+					],
+					"types": [
+						"Sign or Symptom"
+					],
+					"source_value": "headache",
+					"detected_name": "headache",
+					"acc": 0.7094791506640015,
+					"context_similarity": 0.7094791506640015,
+					"start": 128,
+					"end": 136,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 14,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"15": {
+					"pretty_name": "Persons",
+					"cui": "C0027361",
+					"type_ids": [
+						"T098"
+					],
+					"types": [
+						"Population Group"
+					],
+					"source_value": "societies",
+					"detected_name": "society",
+					"acc": 0.5340782058981605,
+					"context_similarity": 0.5340782058981605,
+					"start": 137,
+					"end": 146,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 15,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5321054458618164,
+							"name": "Status"
+						}
+					}
+				},
+				"16": {
+					"pretty_name": "Germany",
+					"cui": "C0017480",
+					"type_ids": [
+						"T083"
+					],
+					"types": [
+						"Geographic Area"
+					],
+					"source_value": "German",
+					"detected_name": "german",
+					"acc": 0.37740377509692596,
+					"context_similarity": 0.37740377509692596,
+					"start": 155,
+					"end": 161,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 16,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"17": {
+					"pretty_name": "Persons",
+					"cui": "C0027361",
+					"type_ids": [
+						"T098"
+					],
+					"types": [
+						"Population Group"
+					],
+					"source_value": "Society",
+					"detected_name": "society",
+					"acc": 0.5455113290654877,
+					"context_similarity": 0.5455113290654877,
+					"start": 162,
+					"end": 169,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 17,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5627691149711609,
+							"name": "Status"
+						}
+					}
+				},
+				"18": {
+					"pretty_name": "Neurology speciality",
+					"cui": "C0027855",
+					"type_ids": [
+						"T091"
+					],
+					"types": [
+						"Biomedical Occupation or Discipline"
+					],
+					"source_value": "Neurology",
+					"detected_name": "neurology",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 173,
+					"end": 182,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 18,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"20": {
+					"pretty_name": "Physicians",
+					"cui": "C0031831",
+					"type_ids": [
+						"T097"
+					],
+					"types": [
+						"Professional or Occupational Group"
+					],
+					"source_value": "physicians",
+					"detected_name": "physician",
+					"acc": 0.630782356817182,
+					"context_similarity": 0.630782356817182,
+					"start": 199,
+					"end": 209,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 20,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"21": {
+					"pretty_name": "Involvement with",
+					"cui": "C1314939",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "engaged",
+					"detected_name": "engaged",
+					"acc": 0.27967607975809067,
+					"context_similarity": 0.27967607975809067,
+					"start": 210,
+					"end": 217,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 21,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"23": {
+					"pretty_name": "Primary Health Care",
+					"cui": "C0033137",
+					"type_ids": [
+						"T058"
+					],
+					"types": [
+						"Health Care Activity"
+					],
+					"source_value": "primary care",
+					"detected_name": "primary~care",
+					"acc": 0.38380224271582297,
+					"context_similarity": 0.38380224271582297,
+					"start": 221,
+					"end": 233,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 23,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.8667251467704773,
+							"name": "Status"
+						}
+					}
+				},
+				"25": {
+					"pretty_name": "Pharmacist",
+					"cui": "C0031323",
+					"type_ids": [
+						"T097"
+					],
+					"types": [
+						"Professional or Occupational Group"
+					],
+					"source_value": "pharmacists",
+					"detected_name": "pharmacist",
+					"acc": 0.5428323638117332,
+					"context_similarity": 0.5428323638117332,
+					"start": 245,
+					"end": 256,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 25,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5629980564117432,
+							"name": "Status"
+						}
+					}
+				},
+				"26": {
+					"pretty_name": "Patients",
+					"cui": "C0030705",
+					"type_ids": [
+						"T101"
+					],
+					"types": [
+						"Patient or Disabled Group"
+					],
+					"source_value": "patients",
+					"detected_name": "patient",
+					"acc": 0.9823130313671928,
+					"context_similarity": 0.9823130313671928,
+					"start": 261,
+					"end": 269,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 26,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"27": {
+					"pretty_name": "Guidelines",
+					"cui": "C0162791",
+					"type_ids": [
+						"T170"
+					],
+					"types": [
+						"Intellectual Product"
+					],
+					"source_value": "guideline",
+					"detected_name": "guideline",
+					"acc": 0.6825557560256021,
+					"context_similarity": 0.6825557560256021,
+					"start": 275,
+					"end": 284,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 27,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"29": {
+					"pretty_name": "concern",
+					"cui": "C2699424",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "concerned",
+					"detected_name": "concerned",
+					"acc": 0.6625794561999065,
+					"context_similarity": 0.6625794561999065,
+					"start": 299,
+					"end": 308,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 29,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				},
+				"30": {
+					"pretty_name": "Description",
+					"cui": "C0678257",
+					"type_ids": [
+						"T170"
+					],
+					"types": [
+						"Intellectual Product"
+					],
+					"source_value": "description",
+					"detected_name": "description",
+					"acc": 0.7302857838712291,
+					"context_similarity": 0.7302857838712291,
+					"start": 318,
+					"end": 329,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 30,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				},
+				"31": {
+					"pretty_name": "Methodology",
+					"cui": "C3266812",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "methodology",
+					"detected_name": "methodology",
+					"acc": 0.565995471133125,
+					"context_similarity": 0.565995471133125,
+					"start": 337,
+					"end": 348,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 31,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"32": {
+					"pretty_name": "Choose (action)",
+					"cui": "C1707391",
+					"type_ids": [
+						"T052"
+					],
+					"types": [
+						"Activity"
+					],
+					"source_value": "selection",
+					"detected_name": "selection",
+					"acc": 0.49297150953012847,
+					"context_similarity": 0.49297150953012847,
+					"start": 359,
+					"end": 368,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 32,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"33": {
+					"pretty_name": "Process",
+					"cui": "C1522240",
+					"type_ids": [
+						"T067"
+					],
+					"types": [
+						"Phenomenon or Process"
+					],
+					"source_value": "process",
+					"detected_name": "process",
+					"acc": 0.6931232006074879,
+					"context_similarity": 0.6931232006074879,
+					"start": 369,
+					"end": 376,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 33,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"34": {
+					"pretty_name": "Literature",
+					"cui": "C0023866",
+					"type_ids": [
+						"T170"
+					],
+					"types": [
+						"Intellectual Product"
+					],
+					"source_value": "literature",
+					"detected_name": "literature",
+					"acc": 0.5582964612952632,
+					"context_similarity": 0.5582964612952632,
+					"start": 384,
+					"end": 394,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 34,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"35": {
+					"pretty_name": "Evidence",
+					"cui": "C3887511",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "evidence",
+					"detected_name": "evidence",
+					"acc": 0.6160856439231195,
+					"context_similarity": 0.6160856439231195,
+					"start": 410,
+					"end": 418,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 35,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"36": {
+					"pretty_name": "Recommendation",
+					"cui": "C0034866",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "recommendations",
+					"detected_name": "recommendation",
+					"acc": 0.8958469764930965,
+					"context_similarity": 0.8958469764930965,
+					"start": 423,
+					"end": 438,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 36,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"37": {
+					"pretty_name": "Basis - conceptual entity",
+					"cui": "C1527178",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "based",
+					"detected_name": "based",
+					"acc": 0.2473106990610784,
+					"context_similarity": 0.2473106990610784,
+					"start": 443,
+					"end": 448,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 37,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"38": {
+					"pretty_name": "Following",
+					"cui": "C0332282",
+					"type_ids": [
+						"T079"
+					],
+					"types": [
+						"Temporal Concept"
+					],
+					"source_value": "following",
+					"detected_name": "following",
+					"acc": 0.15338720505664402,
+					"context_similarity": 0.15338720505664402,
+					"start": 459,
+					"end": 468,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 38,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"39": {
+					"pretty_name": "Recommendation",
+					"cui": "C0034866",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "recommendations",
+					"detected_name": "recommendation",
+					"acc": 0.8931460221650354,
+					"context_similarity": 0.8931460221650354,
+					"start": 469,
+					"end": 484,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 39,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"40": {
+					"pretty_name": "Self-Report",
+					"cui": "C2700446",
+					"type_ids": [
+						"T062"
+					],
+					"types": [
+						"Research Activity"
+					],
+					"source_value": "self",
+					"detected_name": "self",
+					"acc": 0.2058349936375989,
+					"context_similarity": 0.2058349936375989,
+					"start": 491,
+					"end": 495,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 40,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"41": {
+					"pretty_name": "Explanation of plan: medication",
+					"cui": "C2081612",
+					"type_ids": [
+						"T058"
+					],
+					"types": [
+						"Health Care Activity"
+					],
+					"source_value": "medication",
+					"detected_name": "medication",
+					"acc": 0.5714190797721965,
+					"context_similarity": 0.5714190797721965,
+					"start": 496,
+					"end": 506,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 41,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5627691149711609,
+							"name": "Status"
+						}
+					}
+				},
+				"42": {
+					"pretty_name": "Migraine Disorders",
+					"cui": "C0149931",
+					"type_ids": [
+						"T047"
+					],
+					"types": [
+						"Disease or Syndrome"
+					],
+					"source_value": "migraine",
+					"detected_name": "migraine",
+					"acc": 0.3743056526105648,
+					"context_similarity": 0.3743056526105648,
+					"start": 510,
+					"end": 518,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 42,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"45": {
+					"pretty_name": "Effectiveness",
+					"cui": "C1280519",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "efficacy of",
+					"detected_name": "efficacy~of",
+					"acc": 0.19039216499962608,
+					"context_similarity": 0.19039216499962608,
+					"start": 544,
+					"end": 555,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 45,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9999474287033081,
+							"name": "Status"
+						}
+					}
+				},
+				"48": {
+					"pretty_name": "Dosage",
+					"cui": "C0178602",
+					"type_ids": [
+						"T081"
+					],
+					"types": [
+						"Quantitative Concept"
+					],
+					"source_value": "dose",
+					"detected_name": "dose",
+					"acc": 0.7610939878893292,
+					"context_similarity": 0.7610939878893292,
+					"start": 566,
+					"end": 570,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 48,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"49": {
+					"pretty_name": "Combination Drug Therapy",
+					"cui": "C0013218",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "combination",
+					"detected_name": "combination",
+					"acc": 0.3915069863364518,
+					"context_similarity": 0.3915069863364518,
+					"start": 571,
+					"end": 582,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 49,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"50": {
+					"pretty_name": "Acetaminophen",
+					"cui": "C0000970",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetaminophen",
+					"detected_name": "acetaminophen",
+					"acc": 0.5293469174887631,
+					"context_similarity": 0.5293469174887631,
+					"start": 586,
+					"end": 599,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 50,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"51": {
+					"pretty_name": "Aspirin",
+					"cui": "C0004057",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetylsalicylic acid",
+					"detected_name": "acetylsalicylic~acid",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 601,
+					"end": 621,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 51,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9939519762992859,
+							"name": "Status"
+						}
+					}
+				},
+				"53": {
+					"pretty_name": "Caffeine",
+					"cui": "C0006644",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "caffeine",
+					"detected_name": "caffeine",
+					"acc": 0.36807949657865013,
+					"context_similarity": 0.36807949657865013,
+					"start": 626,
+					"end": 634,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 53,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"54": {
+					"pretty_name": "C0520016",
+					"cui": "C0520016",
+					"type_ids": [
+						"unk"
+					],
+					"types": [
+						""
+					],
+					"source_value": "monotherapies",
+					"detected_name": "monotherapie",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 643,
+					"end": 656,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 54,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9102572798728943,
+							"name": "Status"
+						}
+					}
+				},
+				"55": {
+					"pretty_name": "2-(4-isobutylphenyl)propanoic acid",
+					"cui": "C0020740",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "ibuprofen",
+					"detected_name": "ibuprofen",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 662,
+					"end": 671,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 55,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"56": {
+					"pretty_name": "Acetaminophen",
+					"cui": "C0000970",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetaminophen",
+					"detected_name": "acetaminophen",
+					"acc": 0.56386082575319,
+					"context_similarity": 0.56386082575319,
+					"start": 690,
+					"end": 703,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 56,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.999502420425415,
+							"name": "Status"
+						}
+					}
+				},
+				"58": {
+					"pretty_name": "Recommendation",
+					"cui": "C0034866",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "recommended",
+					"detected_name": "recommended",
+					"acc": 0.15828841015710862,
+					"context_similarity": 0.15828841015710862,
+					"start": 747,
+					"end": 758,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 58,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9999856948852539,
+							"name": "Status"
+						}
+					}
+				},
+				"60": {
+					"pretty_name": "First line of therapy",
+					"cui": "C1708063",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "first-line therapy",
+					"detected_name": "first~line~therapy",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 762,
+					"end": 780,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 60,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6348990201950073,
+							"name": "Status"
+						}
+					}
+				},
+				"63": {
+					"pretty_name": "Pharmacologic Substance",
+					"cui": "C1254351",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "substances",
+					"detected_name": "substance",
+					"acc": 0.18266904065870768,
+					"context_similarity": 0.18266904065870768,
+					"start": 794,
+					"end": 804,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 63,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6814274787902832,
+							"name": "Status"
+						}
+					}
+				},
+				"64": {
+					"pretty_name": "Self-Report",
+					"cui": "C2700446",
+					"type_ids": [
+						"T062"
+					],
+					"types": [
+						"Research Activity"
+					],
+					"source_value": "self",
+					"detected_name": "self",
+					"acc": 0.17491222845073526,
+					"context_similarity": 0.17491222845073526,
+					"start": 813,
+					"end": 817,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 64,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				},
+				"65": {
+					"pretty_name": "Explanation of plan: medication",
+					"cui": "C2081612",
+					"type_ids": [
+						"T058"
+					],
+					"types": [
+						"Health Care Activity"
+					],
+					"source_value": "medication",
+					"detected_name": "medication",
+					"acc": 0.44565642961833696,
+					"context_similarity": 0.44565642961833696,
+					"start": 818,
+					"end": 828,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 65,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5627691149711609,
+							"name": "Status"
+						}
+					}
+				},
+				"66": {
+					"pretty_name": "Migraine Disorders",
+					"cui": "C0149931",
+					"type_ids": [
+						"T047"
+					],
+					"types": [
+						"Disease or Syndrome"
+					],
+					"source_value": "migraine",
+					"detected_name": "migraine",
+					"acc": 0.3974532441325908,
+					"context_similarity": 0.3974532441325908,
+					"start": 832,
+					"end": 840,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 66,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"67": {
+					"pretty_name": "Prophylactic treatment",
+					"cui": "C0199176",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "prophylaxis",
+					"detected_name": "prophylaxis",
+					"acc": 0.596110852043922,
+					"context_similarity": 0.596110852043922,
+					"start": 841,
+					"end": 852,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 67,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"69": {
+					"pretty_name": "Effective",
+					"cui": "C1704419",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "effective",
+					"detected_name": "effective",
+					"acc": 0.2519602075441547,
+					"context_similarity": 0.2519602075441547,
+					"start": 868,
+					"end": 877,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 69,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6814274787902832,
+							"name": "Status"
+						}
+					}
+				},
+				"71": {
+					"pretty_name": "Self-Report",
+					"cui": "C2700446",
+					"type_ids": [
+						"T062"
+					],
+					"types": [
+						"Research Activity"
+					],
+					"source_value": "self",
+					"detected_name": "self",
+					"acc": 0.15720409279227315,
+					"context_similarity": 0.15720409279227315,
+					"start": 894,
+					"end": 898,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 71,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"72": {
+					"pretty_name": "Pharmaceutical Preparations",
+					"cui": "C0013227",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "medication",
+					"detected_name": "medication",
+					"acc": 0.45401229451937586,
+					"context_similarity": 0.45401229451937586,
+					"start": 899,
+					"end": 909,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 72,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5627691149711609,
+							"name": "Status"
+						}
+					}
+				},
+				"74": {
+					"pretty_name": "Type - attribute",
+					"cui": "C0332307",
+					"type_ids": [
+						"T080"
+					],
+					"types": [
+						"Qualitative Concept"
+					],
+					"source_value": "type",
+					"detected_name": "type",
+					"acc": 0.10214584983194384,
+					"context_similarity": 0.10214584983194384,
+					"start": 921,
+					"end": 925,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 74,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"75": {
+					"pretty_name": "Headache",
+					"cui": "C0018681",
+					"type_ids": [
+						"T184"
+					],
+					"types": [
+						"Sign or Symptom"
+					],
+					"source_value": "headache",
+					"detected_name": "headache",
+					"acc": 0.4036002753729299,
+					"context_similarity": 0.4036002753729299,
+					"start": 926,
+					"end": 934,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 75,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"76": {
+					"pretty_name": "Following",
+					"cui": "C0332282",
+					"type_ids": [
+						"T079"
+					],
+					"types": [
+						"Temporal Concept"
+					],
+					"source_value": "following",
+					"detected_name": "following",
+					"acc": 0.134914195948812,
+					"context_similarity": 0.134914195948812,
+					"start": 940,
+					"end": 949,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 76,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				},
+				"77": {
+					"pretty_name": "Treatment Protocols",
+					"cui": "C0040808",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "therapies",
+					"detected_name": "therapy",
+					"acc": 0.5394706817803513,
+					"context_similarity": 0.5394706817803513,
+					"start": 950,
+					"end": 959,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 77,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"78": {
+					"pretty_name": "Recommendation",
+					"cui": "C0034866",
+					"type_ids": [
+						"T078"
+					],
+					"types": [
+						"Idea or Concept"
+					],
+					"source_value": "recommended",
+					"detected_name": "recommended",
+					"acc": 0.2533410326917078,
+					"context_similarity": 0.2533410326917078,
+					"start": 967,
+					"end": 978,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 78,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				},
+				"80": {
+					"pretty_name": "First line of therapy",
+					"cui": "C1708063",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "first-line therapy",
+					"detected_name": "first~line~therapy",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 982,
+					"end": 1000,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 80,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6348990201950073,
+							"name": "Status"
+						}
+					}
+				},
+				"85": {
+					"pretty_name": "Dosage",
+					"cui": "C0178602",
+					"type_ids": [
+						"T081"
+					],
+					"types": [
+						"Quantitative Concept"
+					],
+					"source_value": "dose",
+					"detected_name": "dose",
+					"acc": 0.665182960810949,
+					"context_similarity": 0.665182960810949,
+					"start": 1012,
+					"end": 1016,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 85,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.5629980564117432,
+							"name": "Status"
+						}
+					}
+				},
+				"86": {
+					"pretty_name": "Combination Drug Therapy",
+					"cui": "C0013218",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "combination",
+					"detected_name": "combination",
+					"acc": 0.4382269698280914,
+					"context_similarity": 0.4382269698280914,
+					"start": 1017,
+					"end": 1028,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 86,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"87": {
+					"pretty_name": "Acetaminophen",
+					"cui": "C0000970",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetaminophen",
+					"detected_name": "acetaminophen",
+					"acc": 0.449289252224232,
+					"context_similarity": 0.449289252224232,
+					"start": 1032,
+					"end": 1045,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 87,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"88": {
+					"pretty_name": "Aspirin",
+					"cui": "C0004057",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetylsalicylic acid",
+					"detected_name": "acetylsalicylic~acid",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 1047,
+					"end": 1067,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 88,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9939519762992859,
+							"name": "Status"
+						}
+					}
+				},
+				"90": {
+					"pretty_name": "Caffeine",
+					"cui": "C0006644",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "caffeine",
+					"detected_name": "caffeine",
+					"acc": 0.38810733246628304,
+					"context_similarity": 0.38810733246628304,
+					"start": 1072,
+					"end": 1080,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 90,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"92": {
+					"pretty_name": "combination drug",
+					"cui": "C0013162",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "combination",
+					"detected_name": "combination",
+					"acc": 0.31769600532663705,
+					"context_similarity": 0.31769600532663705,
+					"start": 1102,
+					"end": 1113,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 92,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.99607914686203,
+							"name": "Status"
+						}
+					}
+				},
+				"93": {
+					"pretty_name": "Acetaminophen",
+					"cui": "C0000970",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetaminophen",
+					"detected_name": "acetaminophen",
+					"acc": 0.468146561749452,
+					"context_similarity": 0.468146561749452,
+					"start": 1117,
+					"end": 1130,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 93,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"94": {
+					"pretty_name": "Caffeine",
+					"cui": "C0006644",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "caffeine",
+					"detected_name": "caffeine",
+					"acc": 0.460845970720816,
+					"context_similarity": 0.460845970720816,
+					"start": 1135,
+					"end": 1143,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 94,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"95": {
+					"pretty_name": "C0520016",
+					"cui": "C0520016",
+					"type_ids": [
+						"unk"
+					],
+					"types": [
+						""
+					],
+					"source_value": "monotherapies",
+					"detected_name": "monotherapie",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 1159,
+					"end": 1172,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 95,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9994161128997803,
+							"name": "Status"
+						}
+					}
+				},
+				"96": {
+					"pretty_name": "2-(4-isobutylphenyl)propanoic acid",
+					"cui": "C0020740",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "ibuprofen",
+					"detected_name": "ibuprofen",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 1178,
+					"end": 1187,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 96,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"97": {
+					"pretty_name": "Aspirin",
+					"cui": "C0004057",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "acetylsalicylic acid",
+					"detected_name": "acetylsalicylic~acid",
+					"acc": 1,
+					"context_similarity": 1,
+					"start": 1191,
+					"end": 1211,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 97,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9939519762992859,
+							"name": "Status"
+						}
+					}
+				},
+				"99": {
+					"pretty_name": "[2-(2,6-dichloroanilino)phenyl]acetic acid",
+					"cui": "C0012091",
+					"type_ids": [
+						"T121"
+					],
+					"types": [
+						"Pharmacologic Substance"
+					],
+					"source_value": "diclofenac",
+					"detected_name": "diclofenac",
+					"acc": 0.20349621574701365,
+					"context_similarity": 0.20349621574701365,
+					"start": 1215,
+					"end": 1225,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 99,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.7264999747276306,
+							"name": "Status"
+						}
+					}
+				},
+				"100": {
+					"pretty_name": "science",
+					"cui": "C0036397",
+					"type_ids": [
+						"T090"
+					],
+					"types": [
+						"Occupation or Discipline"
+					],
+					"source_value": "scientific",
+					"detected_name": "scientific",
+					"acc": 0.2121115511575903,
+					"context_similarity": 0.2121115511575903,
+					"start": 1236,
+					"end": 1246,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 100,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.9482507109642029,
+							"name": "Status"
+						}
+					}
+				},
+				"101": {
+					"pretty_name": "Persons",
+					"cui": "C0027361",
+					"type_ids": [
+						"T098"
+					],
+					"types": [
+						"Population Group"
+					],
+					"source_value": "societies",
+					"detected_name": "society",
+					"acc": 0.31009436148717073,
+					"context_similarity": 0.31009436148717073,
+					"start": 1247,
+					"end": 1256,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 101,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5321054458618164,
+							"name": "Status"
+						}
+					}
+				},
+				"102": {
+					"pretty_name": "Hope (emotion)",
+					"cui": "C0392347",
+					"type_ids": [
+						"T041"
+					],
+					"types": [
+						"Mental Process"
+					],
+					"source_value": "hope",
+					"detected_name": "hope",
+					"acc": 0.24689640659060183,
+					"context_similarity": 0.24689640659060183,
+					"start": 1257,
+					"end": 1261,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 102,
+					"meta_anns": {
+						"Status": {
+							"value": "Affirmed",
+							"confidence": 0.6910539269447327,
+							"name": "Status"
+						}
+					}
+				},
+				"103": {
+					"pretty_name": "Guidelines",
+					"cui": "C0162791",
+					"type_ids": [
+						"T170"
+					],
+					"types": [
+						"Intellectual Product"
+					],
+					"source_value": "guideline",
+					"detected_name": "guideline",
+					"acc": 0.5503244167831055,
+					"context_similarity": 0.5503244167831055,
+					"start": 1272,
+					"end": 1281,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 103,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.6535547375679016,
+							"name": "Status"
+						}
+					}
+				},
+				"105": {
+					"pretty_name": "Improved",
+					"cui": "C0184511",
+					"type_ids": [
+						"T033"
+					],
+					"types": [
+						"Finding"
+					],
+					"source_value": "improve",
+					"detected_name": "improve",
+					"acc": 0.7401734261921646,
+					"context_similarity": 0.7401734261921646,
+					"start": 1295,
+					"end": 1302,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 105,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"106": {
+					"pretty_name": "Therapeutic procedure",
+					"cui": "C0087111",
+					"type_ids": [
+						"T061"
+					],
+					"types": [
+						"Therapeutic or Preventive Procedure"
+					],
+					"source_value": "treatment",
+					"detected_name": "treatment",
+					"acc": 0.7830732456855873,
+					"context_similarity": 0.7830732456855873,
+					"start": 1307,
+					"end": 1316,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 106,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"107": {
+					"pretty_name": "Headache",
+					"cui": "C0018681",
+					"type_ids": [
+						"T184"
+					],
+					"types": [
+						"Sign or Symptom"
+					],
+					"source_value": "headaches",
+					"detected_name": "headache",
+					"acc": 0.23406054396101267,
+					"context_similarity": 0.23406054396101267,
+					"start": 1320,
+					"end": 1329,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 107,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.9436687231063843,
+							"name": "Status"
+						}
+					}
+				},
+				"109": {
+					"pretty_name": "Initiation",
+					"cui": "C1704686",
+					"type_ids": [
+						"T169"
+					],
+					"types": [
+						"Functional Concept"
+					],
+					"source_value": "initiated",
+					"detected_name": "initiated",
+					"acc": 0.5823062034958355,
+					"context_similarity": 0.5823062034958355,
+					"start": 1347,
+					"end": 1356,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 109,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"110": {
+					"pretty_name": "Patients",
+					"cui": "C0030705",
+					"type_ids": [
+						"T101"
+					],
+					"types": [
+						"Patient or Disabled Group"
+					],
+					"source_value": "patients",
+					"detected_name": "patient",
+					"acc": 0.99,
+					"context_similarity": 0.99,
+					"start": 1364,
+					"end": 1372,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 110,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				},
+				"111": {
+					"pretty_name": "Consultation",
+					"cui": "C0009818",
+					"type_ids": [
+						"T058"
+					],
+					"types": [
+						"Health Care Activity"
+					],
+					"source_value": "consultation",
+					"detected_name": "consultation",
+					"acc": 0.5377197939549905,
+					"context_similarity": 0.5377197939549905,
+					"start": 1396,
+					"end": 1408,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 111,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.5959308743476868,
+							"name": "Status"
+						}
+					}
+				},
+				"112": {
+					"pretty_name": "Physicians",
+					"cui": "C0031831",
+					"type_ids": [
+						"T097"
+					],
+					"types": [
+						"Professional or Occupational Group"
+					],
+					"source_value": "physicians",
+					"detected_name": "physician",
+					"acc": 0.6712800640894623,
+					"context_similarity": 0.6712800640894623,
+					"start": 1420,
+					"end": 1430,
+					"icd10": [],
+					"ontologies": [],
+					"snomed": [],
+					"id": 112,
+					"meta_anns": {
+						"Status": {
+							"value": "Other",
+							"confidence": 0.840086817741394,
+							"name": "Status"
+						}
+					}
+				}
+			}
+		],
+		"success": true,
+		"timestamp": "2025-05-14T07:47:33.068+00:00",
+		"elapsed_time": 5.640347704
+	},
+	"medcat_info": {
+		"service_app_name": "MedCAT",
+		"service_language": "en",
+		"service_version": "1.15.0",
+		"service_model": "MedMen",
+		"model_card_info": {
+			"ontologies": "None",
+			"meta_cat_model_names": "{}",
+			"model_last_modified_on": "None"
+		}
+	}
+}
