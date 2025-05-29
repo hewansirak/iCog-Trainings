@@ -1,6 +1,6 @@
 import fitz  # PyMuPDF
 import nltk
-nltk.download('punkt')
+nltk.download('punkt')  # Sentence level text splitter
 from nltk.tokenize import sent_tokenize
 
 def chunk_text(text, max_len=500, overlap=50):

@@ -1,5 +1,6 @@
 import re
 import spacy
+# Small language model for NER
 nlp = spacy.load("en_core_web_sm")
 
 def clean_text(text):

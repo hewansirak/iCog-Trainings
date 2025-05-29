@@ -4,8 +4,8 @@ from modules.preprocessing import expand_synonyms, highlight_entities
 
 def search_query(query, store, style="Concise", top_k=3):
     expanded_query = expand_synonyms(query)
-    q_vec = model.encode(expanded_query)
-    D, I = store["index"].search(np.array([q_vec]), top_k + 5)
+    q_vec = model.encode(expanded_query) # Expanded query to vector
+    D, I = store["index"].search(np.array([q_vec]), top_k + 5) # Closest vectors in FAISS
 
     results = []
     query_lower = query.lower()
@@ -18,7 +18,7 @@ def search_query(query, store, style="Concise", top_k=3):
                 text = text[:500] + "..." if len(text) > 500 else text
 
             # Calculate a pseudo-score based on FAISS distance
-            score = 1 / (D[0][rank] + 1e-5)
+            score = 1 / (D[0][rank] + 1e-5) # Inverse of distance = similarity score
 
             if "entities" in doc["meta"]:
                 if any(ent in query_lower for ent in doc["meta"]["entities"]):

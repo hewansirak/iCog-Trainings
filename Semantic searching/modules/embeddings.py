@@ -1,15 +1,15 @@
 from sentence_transformers import SentenceTransformer
-import faiss
+import faiss # fast nearest neighbor search on vector data
 import numpy as np
 from modules.preprocessing import clean_text, expand_synonyms, extract_entities
 
-model = SentenceTransformer('all-mpnet-base-v2')
+model = SentenceTransformer('all-mpnet-base-v2') # text into dense vector
 
 def get_vector_store():
-    # 384 is the dimension for all-mpnet-base-v2
     index = faiss.IndexFlatL2(768)
     return {"index": index, "texts": []}
 
+# Cleans, embeds and adds them to faiss index
 def embed_and_store(texts, vector_store):
     for t in texts:
         text_clean = clean_text(t["text"])
@@ -20,7 +20,9 @@ def embed_and_store(texts, vector_store):
         meta = t.get("meta", {})
         meta["entities"] = entities
 
-        vector_store["index"].add(np.array([embedding]).astype("float32"))
+        # Add extracted entity to the meta data for the chunk
+        vector_store["index"].add(np.array([embedding]).astype("float32")) 
+        # Add embedding to FAISS index
         vector_store["texts"].append({
             "text": text_clean,
             "embedding": embedding.tolist(),
